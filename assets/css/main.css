@@ -1,0 +1,145 @@
+/*Header*/
+.header{
+    padding: 30px;
+    box-shadow: 0px 7px 10px #101928;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo img{
+    width:20px;
+    height:20px;
+}
+.logo h1{
+    color:var(--maincolor);
+    font-family:var(--headerfont);
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.header_links .links{
+    display: flex;
+    gap: 70px;
+    font-size: 15px;
+    font-family: var(--subfont);
+    
+}
+.links .a{
+    color:#101928;
+}
+.log_regist {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.log_regist .button{
+    
+    background-color: var(--maincolor);
+    color: #ffffff;
+}
+.log_regist .button1{
+     color: var(--maincolor);
+      background-color: #ffffff;
+      border: 2px solid var(--maincolor);
+      border-radius: 3px;
+      padding: 5px 15px;
+      transition: background-color .4s;
+}
+.log_regist .button2{
+     background-color: var(--maincolor);
+     color: #ffff;
+     border: 2px solid var(--maincolor);
+     border-radius: 3px;
+     padding: 5px 15px;
+     transition: background-color .4s;
+}
+.links .a:hover{
+    color:#f1091c;
+    text-decoration:underline;
+    letter-spacing: 2px;
+}
+.header .bars{
+    display: none;
+    
+}
+
+.log_regist .button1:hover{
+    background-color: var(--maincolor);
+    color: red;
+}
+.log_regist .button2:hover{
+    background-color: #ffff;
+    color: red;
+}
+@media (max-width:1180px) 
+{ 
+     .container{
+        width:100%;
+    }
+    
+}
+@media (max-width:1070px) 
+{
+    .header .bars{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header_links .links{
+        display: none;
+    }
+
+    .log_regist{
+       display: none;
+    
+    }
+}
+
+/*Section-1*/
+.introduction_course{
+    padding: 30px 0;
+}
+.intro_course_left .first_p{
+    font-family: var(--mainfont);
+    color: var(--maincolor);
+    font-weight: 400;
+}
+
+.intro_course_left .second_p{
+    color: var(--maincolor);
+     font-family: var(--mainfont);
+     font-weight: 900;
+}
+.intro_course_left h1{
+    font-size: 27px;
+    color: #141E32;
+    font-family: var(--subfont);
+}
+.intro_course_left .sub_color{
+    color: var(--maincolor);
+}
+.under_intro p{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.under_intro button{
+    padding: 5px 10px;
+    background-color: var(--maincolor);
+    color: #ffff;
+    border: none;
+}
+.under_intro {
+
+    display: flex;
+    gap: 10px;
+}
+
+
